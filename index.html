@@ -1,57 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
 </head>
 <body>
-    <h1>Do you want to join Google as software engineer</h1>
-    <a href="https://www.google.com">Click Here</a>
-    <img src="tooo.png" alt="W3Schools.com" width="104" height="142">
 
-    <ul>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-      </ul>
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about-me">About Me</a>
+      <a href="#work-experience">Work & Experience</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#feedback">Feedback</a>
+    </nav>
+  </header>
 
-      <ol>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-      </ol>
+  <section id="about-me">
+    <h2>About Me</h2>
+    <p>Write a short introduction about yourself, your skills, and your goals.</p>
+  </section>
 
-      <dl>
-        <dt>Coffee</dt>
-        <dd>- black hot drink</dd>
-        <dt>Milk</dt>
-        <dd>- white cold drink</dd>
-      </dl>
+  <section id="work-experience">
+    <h2>Work & Experience</h2>
+    <p>List your previous work experiences, projects you've worked on, or volunteer work.</p>
+  </section>
 
-      <table>
-        <tr>
-          <th>Person 1</th>
-          <th>Person 2</th>
-          <th>Person 3</th>
-        </tr>
-        <tr>
-          <td>Emil</td>
-          <td>Tobias</td>
-          <td>Linus</td>
-        </tr>
-        <tr>
-          <td>16</td>
-          <td>14</td>
-          <td>10</td>
-        </tr>
-      </table>
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <table>
+      <tr>
+        <th>Achievement</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>Won First Place in a Hackathon</td>
+        <td>Developed a creative solution using [Skill 1] and [Skill 2].</td>
+      </tr>
+    </table>
+  </section>
 
-      <form>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname">
-      </form>
+  <section id="feedback">
+    <h2>Feedback</h2>
+    <form action="#">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">Your Email (optional):</label>
+      <input type="email" id="email" name="email">
+      <br>
+      <label for="feedback">Your Feedback:</label>
+      <textarea id="feedback" name="feedback" rows="5" required></textarea>
+      <br>
+      <button type="submit">Send Feedback</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Your Name</p>
+  </footer>
+
 </body>
 </html>
